@@ -1,0 +1,62 @@
+:root {
+  --primary: hsl(240deg, 80%, 60%);
+  --gray50: hsl(0deg, 0%, 95%);
+  --gray300: hsl(0, 0%, 75%);
+  --gray500: hsl(0, 0%, 50%);
+  --gray700: hsl(0, 0%, 40%);
+  --black: hsl(0deg, 0%, 0%);
+  --transparentGray15: hsla(0, 0%, 50%, 0.15);
+  --transparentGray35: hsla(0, 0%, 50%, 0.349);
+
+  --font14: 14px;
+  --font16: 16px;
+  --font18: 18px;
+  --font21: 21px;
+  --font24: 24px;
+
+  --focusBlue: #43b3f8;
+  --otherBlue: dodgerblue;
+}
+
+/* input {
+  background-color: rgb(255, 255, 255);
+  border-bottom-color: rgb(172, 172, 172);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: solid;
+  border-bottom-width: 0.8695652484893799px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: rgb(172, 172, 172);
+  border-left-style: solid;
+  border-left-width: 0.8695652484893799px;
+  border-right-color: rgb(172, 172, 172);
+  border-right-style: solid;
+  border-right-width: 0.8695652484893799px;
+  border-top-color: rgb(172, 172, 172);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: solid;
+  border-top-width: 0.8695652484893799px;
+  box-sizing: border-box;
+  color: rgb(73, 73, 73);
+  display: block;
+  font-family: UbuntuMedium, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  height: 27.989131927490234px;
+  line-height: normal;
+  margin-bottom: 0px;
+  margin-left: 5.1222825050354px;
+  margin-right: 5.13586950302124px;
+  margin-top: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 126.99728393554688px;
+} */

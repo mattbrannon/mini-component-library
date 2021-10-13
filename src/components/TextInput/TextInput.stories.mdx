@@ -1,0 +1,54 @@
+import { Meta, Story } from '@storybook/addon-docs/blocks';
+import TextInput from  './TextInput2.js';
+
+<Meta
+  title="TextInput"
+  component={TextInput}
+  argTypes={
+    size: {
+      control: {
+        type: 'select',
+        options: ['small', 'medium', 'large'],
+      },
+    },
+    variant: {
+      control: {
+        type: 'select',
+        options: ['text', 'email', 'password']
+      },
+    },
+    placeholder: {
+      control: {
+        type: 'text',
+        value: "your email"
+      }
+    },
+    legend: {
+      control: {
+        type: 'text',
+        value: "where should we direct our spam"
+      }
+    },
+    exampleText: {
+      control: {
+        type: 'text',
+        value: "Ex: username@email.com"
+      }
+    }
+}
+/>
+
+export const Template = (args) => <TextInput {...args} />;
+
+# TextInput
+
+<Story
+  name="Default"
+  args={{
+    variant: 'text',
+    size: 'medium',
+  }}
+>
+  {Template.bind({})}
+</Story>
+
